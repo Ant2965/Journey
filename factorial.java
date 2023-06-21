@@ -9,7 +9,7 @@ public class factorial {
 	}
 
 	public static void main(String[] args) {
-		int n =12;
+		int n =12; // Write your desired number here.
 		System.out.println(fact(n));
 
 	}
