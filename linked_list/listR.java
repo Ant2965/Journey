@@ -1,12 +1,15 @@
 package linked_list;
 public class listR {
-	public static void call(node head) {
+	public static void call(node head,int count) {
 		node temp=head;
 		if(head==null) {
 			return;
 		}
+       // count =count+1;
 		System.out.print(temp.data+"  ");
-		call(head.next);
+        		System.out.println(count+"  ");
+
+		call(head.next,count+1);
 		
 		
 	}
@@ -21,7 +24,7 @@ public class listR {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+		int count =1;
 		node a =new node(243);
 		node b =new node(2354);
 		node c =new node(2353);
@@ -37,7 +40,7 @@ e.next=f;
 f.next=g;
 
 node temp =a;
-call(temp);
+call(temp,count);
 
 	}
 

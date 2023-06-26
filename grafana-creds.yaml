@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: Secret
-metadata:
-  name: grafana-creds
-data:
-  username: am9obg==
-  password: Mzk1MjgkdmRnN0pi
