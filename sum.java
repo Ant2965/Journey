@@ -1,4 +1,4 @@
-public class sum {
+public class sum {//athe salary paid is
 	public static int sumn(int n) {
 		if(n==1) {
 			return 1;
