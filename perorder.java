@@ -1,5 +1,5 @@
 //package trees;
-
+//for the preorder traversal
 public class perorder {
 	public static class Node{
 		int data;

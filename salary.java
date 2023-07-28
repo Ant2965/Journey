@@ -21,6 +21,6 @@ public class salary {
          else{
 	         System.out.println("Tax = 30");
 }
-    }
+    }//high salaary
 
 }
